@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JMenu" name="jMenu3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenu3"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPopupMenu" name="jPopupMenu1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JMenu" name="jMenu5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenu5"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="&#x39d;&#x3b1;&#x3c1;&#x3ba;&#x3b1;&#x3bb;&#x3b9;&#x3b5;&#x3c5;&#x3c4;&#x3ae;&#x3c2;"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="9a" red="33" type="rgb"/>
+    </Property>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[2147483647, 658]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="702" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="Tabs" min="-2" pref="702" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="417" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="Tabs" min="-2" pref="417" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="Tabs">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="9a" red="33" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="9a" red="33" type="rgb"/>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="9a" red="33" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="newgame" max="32767" attributes="0"/>
+                                  <Component id="options" max="32767" attributes="0"/>
+                                  <Component id="Instructions" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="exit" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="124" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Component id="background" alignment="1" pref="655" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" pref="55" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="newgame" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="options" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Instructions" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="exit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="79" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="background" pref="372" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="background">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/minesweeper/mam.jpg"/>
+                </Property>
+                <Property name="debugGraphicsOptions" type="int" value="-1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="newgame">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x39d;&#x3ad;&#x3b1; &#x3a0;&#x3b1;&#x3c1;&#x3c4;&#x3af;&#x3b4;&#x3b1;"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newgameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="options">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3bb;&#x3bf;&#x3b3;&#x3ad;&#x3c2;"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="optionsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="48" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="MINESWEEPER"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="exit">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x388;&#x3be;&#x3bf;&#x3b4;&#x3bf;&#x3c2;"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Instructions">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x39f;&#x3b4;&#x3b7;&#x3b3;&#x3af;&#x3b5;&#x3c2;"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InstructionsActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="difficulty" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel5" min="-2" pref="187" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" pref="376" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="231" max="-2" attributes="0"/>
+                              <Component id="mineskin" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="returnToMenu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Component id="newgameOpt" min="-2" pref="185" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Component id="Exit" min="-2" pref="121" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" pref="55" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mineskin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="difficulty" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jLabel4" min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="returnToMenu" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="newgameOpt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Exit" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="returnToMenu">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3c3;&#x3c4;&#x3c1;&#x3bf;&#x3c6;&#x3ae; &#x3c3;&#x3c4;&#x3bf; &#x39c;&#x3b5;&#x3bd;&#x3bf;&#x3cd;"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="returnToMenuActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Exit">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x388;&#x3be;&#x3bf;&#x3b4;&#x3bf;&#x3c2;"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExitActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSlider" name="difficulty">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="9a" red="33" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="majorTickSpacing" type="int" value="1"/>
+                <Property name="maximum" type="int" value="3"/>
+                <Property name="minimum" type="int" value="1"/>
+                <Property name="minorTickSpacing" type="int" value="1"/>
+                <Property name="snapToTicks" type="boolean" value="true"/>
+                <Property name="value" type="int" value="1"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="10 "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="40"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="90"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="newgameOpt">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x388;&#x3bd;&#x3b1;&#x3c1;&#x3be;&#x3b7; &#x3a0;&#x3b1;&#x3c1;&#x3c4;&#x3af;&#x3b4;&#x3b1;&#x3c2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newgameOptActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3bb;&#x3bf;&#x3b3;&#x3ae; &#x394;&#x3c5;&#x3c3;&#x3ba;&#x3bf;&#x3bb;&#x3af;&#x3b1;&#x3c2; (&#x39d;&#x3ac;&#x3c1;&#x3ba;&#x3b5;&#x3c2;):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="mineskin">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="66" red="0" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="&#x39a;&#x3cc;&#x3ba;&#x3ba;&#x3b9;&#x3bd;&#x3b7;"/>
+                    <StringItem index="1" value="&#x393;&#x3ba;&#x3c1;&#x3b9;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mineskinActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x3a7;&#x3c1;&#x3ce;&#x3bc;&#x3b1; &#x39d;&#x3ac;&#x3c1;&#x3ba;&#x3b7;&#x3c2;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="48" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="MINESWEEPER"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab3">
+                <Property name="tabTitle" type="java.lang.String" value="tab3"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel8" min="-2" pref="652" max="-2" attributes="0"/>
+                          <Component id="returnToMenu1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel8" pref="322" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="returnToMenu1" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="returnToMenu1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Source Serif Pro Black" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="99" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3c3;&#x3c4;&#x3c1;&#x3bf;&#x3c6;&#x3ae; &#x3c3;&#x3c4;&#x3bf; &#x39c;&#x3b5;&#x3bd;&#x3bf;&#x3cd;"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="returnToMenu1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;h style=&quot;color:red;&quot;&gt;&#x39f;&#x3b4;&#x3b7;&#x3b3;&#x3af;&#x3b5;&#x3c2; &#x3c0;&#x3c1;&#x3bf;&#x3c2; &#x3bd;&#x3ad;&#x3bf;&#x3c5;&#x3c2; &#x3bd;&#x3b1;&#x3c1;&#x3ba;&#x3b1;&#x3bb;&#x3b9;&#x3b5;&#x3c5;&#x3c4;&#x3ad;&#x3c2;:&lt;/h&gt;&#xa;&lt;p&gt;&#x9;&amp;emsp;&#x9;&#x3a3;&#x3ba;&#x3bf;&#x3c0;&#x3cc;&#x3c2; &#x3c4;&#x3bf;&#x3c5;  &#x3c0;&#x3b1;&#x3b9;&#x3c7;&#x3bd;&#x3b9;&#x3b4;&#x3bf;&#x3cd;: &lt;/p&gt;&#xa; &lt;br&gt;&lt;/br&gt;&#xa;&lt;p&gt;&#x9;&#x3a3;&#x3ba;&#x3bf;&#x3c0;&#x3cc;&#x3c2; &#x3c4;&#x3bf;&#x3c5; &#x3c0;&#x3b1;&#x3b9;&#x3c7;&#x3bd;&#x3b9;&#x3b4;&#x3b9;&#x3bf;&#x3cd; &#x3b5;&#x3af;&#x3bd;&#x3b1;&#x3b9; &#x3b7; &#x3b1;&#x3c0;&#x3bf;&#x3ba;&#x3ac;&#x3bb;&#x3c5;&#x3c8;&#x3b7; &#x3cc;&#x3bb;&#x3c9;&#x3bd; &#x3c4;&#x3c9;&#x3bd; &#x3b4;&#x3b9;&#x3b1;&#x3c7;&#x3c9;&#x3c1;&#x3b9;&#x3c3;&#x3bc;&#x3ce;&#x3bd; &#x3c4;&#x3b7;&#x3c2; &#x3b8;&#x3ac;&#x3bb;&#x3b1;&#x3c3;&#x3c3;&#x3b1;&#x3c2;(&#x3ba;&#x3b5;&#x3bb;&#x3b9;&#x3ce;&#x3bd;) &#x3b5;&#x3ba;&#x3c4;&#x3cc;&#x3c2; &#x3b1;&#x3c5;&#x3c4;&#x3ce;&#x3bd; &#x3c0;&#x3bf;&#x3c5; &#x3c0;&#x3b5;&#x3c1;&#x3b9;&#x3ad;&#x3c7;&#x3bf;&#x3c5;&#x3bd; &#x3bd;&#x3ac;&#x3c1;&#x3ba;&#x3b7;.&#x39a;&#x3ac;&#x3b8;&#x3b5; &#x3c6;&#x3bf;&#x3c1;&#x3ac; &#x3c0;&#x3bf;&#x3c5; &#x3b1;&#x3c0;&#x3bf;&#x3ba;&#x3b1;&#x3bb;&#x3cd;&#x3c0;&#x3c4;&#x3b5;&#x3c4;&#x3b5; &#x3ad;&#x3bd;&#x3b1; &#x3ba;&#x3b5;&#x3bb;&#x3af; &#x3ba;&#x3b1;&#x3b9; &#x3b1;&#x3c5;&#x3c4;&#x3cc; &#x3b1;&#x3bd; &#x3b4;&#x3ad;&#x3bd; &#x3b5;&#x3af;&#x3bd;&#x3b1;&#x3b9; &#x3bd;&#x3ac;&#x3c1;&#x3ba;&#x3b7; &#x3c4;&#x3cc;&#x3c4;&#x3b5; &#x3c3;&#x3b1;&#x3c2; &#x3b5;&#x3bc;&#x3c6;&#x3b1;&#x3bd;&#x3af;&#x3b6;&#x3b5;&#x3c4;&#x3b1;&#x3b9; &#x3bf; &#x3b1;&#x3c1;&#x3b9;&#x3b8;&#x3bc;&#x3cc;&#x3c2; &#x3bd;&#x3b1;&#x3c1;&#x3ba;&#x3ce;&#x3bd; &#x3c3;&#x3b5; &#x3b3;&#x3b5;&#x3b9;&#x3c4;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ac; &#x3ba;&#x3b5;&#x3bb;&#x3b9;&#x3ac; (&#x3c0;&#x3ac;&#x3bd;&#x3c9;,&#x3ba;&#x3ac;&#x3c4;&#x3c9;,&#x3b4;&#x3b5;&#x3be;&#x3b9;&#x3ac;,&#x3b1;&#x3c1;&#x3b9;&#x3c3;&#x3c4;&#x3b5;&#x3c1;&#x3ac; &#x3ba;&#x3b1;&#x3b9; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3ce;&#x3bd;&#x3b9;&#x3b1;) &#x3ae; &#x3c3;&#x3b1;&#x3c2; &#x3b5;&#x3bc;&#x3c6;&#x3b1;&#x3bd;&#x3af;&#x3b6;&#x3bf;&#x3bd;&#x3c4;&#x3b1;&#x3b9; &#x3cc;&#x3bb;&#x3b1; &#x3c4;&#x3b1; &#x3ba;&#x3b5;&#x3bd;&#x3ac; &#x3ad;&#x3c9;&#x3c2; &#x3b5;&#x3ba;&#x3ad;&#x3b9; &#x3c0;&#x3bf;&#x3c5; &#x3b3;&#x3b5;&#x3b9;&#x3c4;&#x3bf;&#x3bd;&#x3b5;&#x3cd;&#x3b5;&#x3b9; &#x3bd;&#x3ac;&#x3c1;&#x3ba;&#x3b7;.&#x391;&#x3bd;&#x3c4;&#x3af;&#x3b8;&#x3b5;&#x3c4;&#x3b1; &#x3b1;&#x3bd; &#x3b1;&#x3c0;&#x3bf;&#x3ba;&#x3b1;&#x3bb;&#x3cd;&#x3c8;&#x3b5;&#x3c4;&#x3b5; &#x3bc;&#x3b9;&#x3ac; &#x3bd;&#x3ac;&#x3c1;&#x3ba;&#x3b7;, &#x3b1;&#x3c5;&#x3c4;&#x3ae; &#x3b5;&#x3ba;&#x3c1;&#x3ae;&#x3b3;&#x3bd;&#x3c5;&#x3c4;&#x3b1;&#x3b9; &#x3ba;&#x3b1;&#x3b9; &#x3c4;&#x3bf; &#x3c0;&#x3b1;&#x3b9;&#x3c7;&#x3bd;&#x3af;&#x3b4;&#x3b9; &#x3c4;&#x3b5;&#x3bb;&#x3b5;&#x3b9;&#x3ce;&#x3bd;&#x3b5;&#x3b9; .&#x393;&#x3b9; &#x3b1;&#x3c5;&#x3c4;&#x3cc; &#x3a0;&#x3a1;&#x39f;&#x3a3;&#x39f;&#x3a7;&#x397;!!! &#x391;&#x3bd; &#x3b5;&#x3af;&#x3c3;&#x3c4;&#x3b5; &#x3c3;&#x3af;&#x3b3;&#x3bf;&#x3c5;&#x3c1;&#x3bf;&#x3b9; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3bf; &#x3c0;&#x3bf;&#x3c5; &#x3c5;&#x3c0;&#x3ac;&#x3c1;&#x3c7;&#x3b5;&#x3b9; &#x3bd;&#x3ac;&#x3c1;&#x3ba;&#x3b7; &#x3c4;&#x3bf;&#x3c0;&#x3bf;&#x3b8;&#x3b5;&#x3c4;&#x3ae;&#x3c3;&#x3c4;&#x3b5; &#x3c3;&#x3b7;&#x3bc;&#x3b1;&#x3b9;&#x3ac;&#x3ba;&#x3b9; &#x3ce;&#x3c3;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3bc;&#x3b7; &#x3bc;&#x3c0;&#x3bf;&#x3c1;&#x3b5;&#x3af;&#x3c4;&#x3b1;&#x3b9; &#x3bd;&#x3b1; &#x3c4;&#x3b7; &#x3c0;&#x3b1;&#x3c4;&#x3ae;&#x3c3;&#x3b5;&#x3c4;&#x3b5;.&lt;p&gt;&#xa;&lt;br&gt;&lt;/br&gt;&#xa;&lt;p&gt;&amp;emsp;&#x9;&#x3a7;&#x3b5;&#x3b9;&#x3c1;&#x3b9;&#x3c3;&#x3bc;&#x3cc;&#x3c2;:&lt;/p&gt;&#xa;&lt;br&gt;&lt;/br&gt;&#xa;&lt;p&gt;                  &amp;emsp; &amp;emsp;&amp;emsp;&#x391;&#x3c1;&#x3b9;&#x3c3;&#x3c4;&#x3b5;&#x3c1;&#x3cc; &#x3ba;&#x3bb;&#x3b9;&#x3ba;: &#x391;&#x3c0;&#x3bf;&#x3ba;&#x3ac;&#x3bb;&#x3c5;&#x3c8;&#x3b7; &#x3ba;&#x3b5;&#x3bb;&#x3b9;&#x3bf;&#x3cd;&#xa;&lt;br&gt;&lt;/br&gt;&#xa;                          &amp;emsp; &amp;emsp;&amp;emsp; &#x394;&#x3b5;&#x3be;&#x3af; &#x3ba;&#x3bb;&#x3b9;&#x3ba;: &#x3a4;&#x3bf;&#x3c0;&#x3bf;&#x3b8;&#x3ad;&#x3c4;&#x3b7;&#x3c3;&#x3b7; &#x3a3;&#x3b7;&#x3bc;&#x3b1;&#x3af;&#x3b1;&#x3c2;&#xa;&lt;br&gt;&lt;/br&gt;&#xa;&#x9;&amp;emsp; &#x3a1;&#x3c5;&#x3b8;&#x3bc;&#x3af;&#x3c3;&#x3b5;&#x3b9;&#x3c2;:&#xa;&lt;br&gt;&lt;/br&gt;&#xa;&#x9;&#x391;&#x3c0;&#x3cc; &#x3c4;&#x3bf; &#x3bc;&#x3b5;&#x3bd;&#x3bf;&#x3cd; &#x3b5;&#x3c0;&#x3b9;&#x3bb;&#x3bf;&#x3b3;&#x3ad;&#x3c2; &#x3bc;&#x3c0;&#x3bf;&#x3c1;&#x3b5;&#x3af;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3b5;&#x3c0;&#x3b9;&#x3bb;&#x3ad;&#x3be;&#x3b5;&#x3c4;&#x3b5; &#x3b5;&#x3c0;&#x3af;&#x3c0;&#x3b5;&#x3b4;&#x3bf; &#x3b4;&#x3c5;&#x3c3;&#x3ba;&#x3bf;&#x3bb;&#x3af;&#x3b1;&#x3c2; &#x3c0;&#x3bf;&#x3c5; &#x3c3;&#x3c5;&#x3bd;&#x3b5;&#x3c0;&#x3ac;&#x3b3;&#x3b5;&#x3c4;&#x3b1;&#x3b9; &#x3bc;&#x3b5; &#x3c4;&#x3bf;&#x3bd;  &#x3c3;&#x3c5;&#x3bd;&#x3bf;&#x3bb;&#x3b9;&#x3ba;&#x3cc; &#x3b1;&#x3c1;&#x3b9;&#x3b8;&#x3bc;&#x3cc; &#x3bd;&#x3b1;&#x3c1;&#x3ba;&#x3ce;&#x3bd; (10,40 &#x3ae; 90)&#xa;&#x3ba;&#x3b1;&#x3b8;&#x3ce;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x3bd;&#x3b1; &#x3b5;&#x3be;&#x3b1;&#x3c4;&#x3bf;&#x3bc;&#x3b9;&#x3ba;&#x3b5;&#x3cd;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3c7;&#x3c1;&#x3ce;&#x3bc;&#x3b1; &#x3b1;&#x3c5;&#x3c4;&#x3ce;&#x3bd;.&#x39a;&#x3b1;&#x3bb;&#x3cc; &#x3c8;&#x3ac;&#x3c1;&#x3b5;&#x3bc;&#x3b1;!! &lt;/p&gt;&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
