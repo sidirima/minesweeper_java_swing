@@ -53,3 +53,14 @@ From the main menu, we can select the two other jPanels appart from the default,
 The main menu is called from the main() class of the Java project.  
 > [!TIP]
 > The [src](/src) folder contains the Java classes files used for the project.
+
+### Starting a New Game
+Upon clicking the "New Game" button on the Main Menu, a new Minesweeper object is generated. This object takes values from the "Settings" selections. This is performed with the .getValue() function for _difficulty_ and .getSelectedIndex() for _mineskin_.
+
+> [!NOTE]
+> Difficulty is set by the user, as the number of cells and mineskin is an option to select between grey and red mine color.
+
+On the image below there is a representation of the code used to generate the new Minesweeper object.
+<p align = "center">
+  <img width="1814" height="163" alt="image" src="https://github.com/user-attachments/assets/59672ca3-d6fa-49a4-afdb-a44d46ec93d6" />
+</p>
