@@ -311,7 +311,7 @@ The _rightClick()_ method is an if statement. If the cell that is right-clicked 
 
 In the image below, you can see part of the in-game table, with a flagged cell.
 <p align = "center">
-  <img width="421" height="411" alt="image" src="https://github.com/user-attachments/assets/a712351e-84d4-4d81-b3f2-ce009eb2a447" />
+  <img width="300" alt="image" src="https://github.com/user-attachments/assets/a712351e-84d4-4d81-b3f2-ce009eb2a447" />
 </p>
 
 ```Java
