@@ -303,8 +303,57 @@ addMouseListener(new MouseListener(){
 ```
 
 ### Handler class
-Basic function of _Handler_ is to translate each of the player's actions (right clicking, left clicking) in program actions. So, there are two very important methods used in this class:
-- click()
-- rightClick()
+Basic function of _Handler_ is to translate each of the player's actions (right clicking, left clicking) in program actions. So, there are two very important methods used in this class: _click()_ and _rightClick()_. Those two methods are called from the MouseListener() as we mentioned above. 
+
+The _click()_ method is responsible for checking each cell's type and optically customize them accordingly. The method also defines the winning or losing conditions and also defines the color of mines selected in "Options" menu. For more information, you can check the [Handler.java](/src/minesweeper/Handler.java) file.
+
+The _rightClick()_ method is an if statement. If the cell that is right-clicked is undiscovered, then it becomes "flagged" and also the flag counter is incremented. If the cell that is right-clicked already has a flag, then the flag disappears and the flag counter is decremented.
+
+In the image below, you can see part of the in-game table, with a flagged cell.
+<p align = "center">
+  <img width="421" height="411" alt="image" src="https://github.com/user-attachments/assets/a712351e-84d4-4d81-b3f2-ce009eb2a447" />
+</p>
+
+```Java
+public void rightClick(Cell cell){ //Flag & Unflag function
+        
+    if(!cell.isDiscovered()){
+        if(!cell.isFlagged()){
+            cell.setFlagged(true);
+            cell.setIcon(flag); // FLAG ICON INSERTION
+            flaggedCells++;
+            Window.update(flaggedCells);
+        }else {
+            cell.setFlagged(false);
+            cell.setIcon(null);
+            flaggedCells--;
+            Window.update(flaggedCells);
+            }
+            
+      }
+}
+```
 
 ### Winning & Losing Conditions
+As mentioned before, the game is won when all the mines on the table have been flagged properly. In order to check that condition, we use the following code block in _Handler_ class.
+```Java
+if(discoveredCells==Grid.cellGrid.size()- Minesweeper.MINECOUNT){ //win Condition
+    for(int x=0;x < Grid.cellGrid.size();x++){
+        if(Grid.cellGrid.get(x).getType()==1){
+            Grid.cellGrid.get(x).setIcon(mine);
+            Grid.cellGrid.get(x).setFlagged(true);
+
+        }
+        else{
+            Grid.cellGrid.get(x).setEnabled(false);
+            Grid.cellGrid.get(x).setText(":) ");
+      }
+      }
+      new endMatch(true);
+      Grid.cellGrid.clear();
+}
+```
+When the game is victorious, a JPanel appears to inform the player about his win. On this panel there are options for starting a new game, by selecting difficulty level (number of mines) with a Slider. There are also options for returning to the main menu or exiting the game (closing application). This panel is shown in the image below.
+<p align = "center">
+  <img width="706" height="496" alt="image" src="https://github.com/user-attachments/assets/188d6b29-defb-42fd-a361-1a92a4a050a7" />
+</p>
