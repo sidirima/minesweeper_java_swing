@@ -68,18 +68,70 @@ private void newgameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST
 ```
 
 The constructor of the class is quite simple. First of all, the Screensize is calculated, in order to define the game Window. The width and height of the window are constants dependent on the number of cells on the grid. This is handled via a _switch_ statement.
-Then, the number of mines is calculated, in order to not be more than 10% of the cells. Code for the constructor is shown in the picture below.
-
-<p align = "center">
-  <img width="600" alt="image" src="https://github.com/user-attachments/assets/a1874801-bbb2-4abb-8c7b-c59e004be277" />
-</p>
+Then, the number of mines is calculated, in order to not be more than 10% of the cells. Code is shown below.
+```Java
+public Minesweeper(int difficulty,int skin){
+    Dimension screenSize=Toolkit.getDefaultToolkit().getScreenSize();
+    this.skin=skin;
+    this.difficulty=difficulty;
+    switch(difficulty){
+        case 1:
+                GRIDSIZE=10;
+                WIDTH=480;
+                HEIGHT=480;
+                break;
+        case 2:
+                GRIDSIZE=20;
+                WIDTH=1080;
+                HEIGHT=720;
+                break;
+        case 3:
+                GRIDSIZE=30;
+                WIDTH=1080;
+                HEIGHT=1080;     
+                break;
+        default:
+                break;            
+    }
+    SKIN=this.skin;
+    MINECOUNT = (int)Math.round(GRIDSIZE * GRIDSIZE * 0.1);
+    Window window = new Window(WIDTH,HEIGHT,GRIDSIZE,"Minesweeper",this,handler);
+    if(difficulty==3){
+        window.getFrame().setExtendedState(JFrame.MAXIMIZED_BOTH);
+    }  
+    Window.update(0);
+    }
+```
 
 ### Window Class
 The class' purpose is to generate a window for the game. This class **extends** the JFrame class and contains parameters conserning the window dimensions, cells for _Grid_ table and the _Handler_ class. Those classes will be discussed later. Also, it is responsible for showing the number of mines and the flag icon on window title bar. A part of code for this class is shown in the picture below.
 
-<p align = "center">
-  <img width="700" alt="image" src="https://github.com/user-attachments/assets/90e413d5-91b7-4419-ae28-8f3a6c402329" />
-</p>
+```Java
+public class Window {
+    
+    private static JFrame frame;
+    private static String title;
+    
+    public Window(double width,double height,int gridsize, String title, Minesweeper minesweeper, Handler handler){
+        Window.title=title;
+        frame= new JFrame(title);
+        frame.setPreferredSize(new Dimension((int)width,(int) height));
+        frame.setMaximumSize(new Dimension((int)width, (int)height));
+        frame.setMinimumSize(new Dimension((int)width, (int)height));
+        frame.setLocationRelativeTo(null);
+        StretchIcon img=new StretchIcon(getClass().getResource("/minesweeper/flag-6.png"));
+        
+        frame.setIconImage(img.getImage());
+        
+        JPanel panel = new Grid(new GridLayout(gridsize, gridsize), handler);
+        
+         frame.setContentPane(panel);
+        frame.pack();
+        
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+    }
+```
 
 ### Grid Class
 The _Grid_ is a JPanel type square table. The dimension of the table is defined by the _gridsize_ variable. Also on the class there are arrayLists, one of type _Cell_ to define positions of table cells and one type _integer_ to define random cells for mines (using Math.random() function).
