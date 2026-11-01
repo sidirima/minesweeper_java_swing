@@ -24,5 +24,5 @@ Therefore, there are only 2 ways the game is over:
 - **Victory**: The player flags all the mines on the table correctly.
 - **Defeat**: The player hits a mine. 
 
-[!NOTE]
-If the user flags a cell and later discovers that does not contain a mine, it can be unflagged by right-clicking it again.
+> [!NOTE]
+> If the user flags a cell and later discovers that does not contain a mine, it can be unflagged by right-clicking it again.
