@@ -41,9 +41,15 @@ Using Swing, developed programs are very lightweight, although due to its limite
 ## Our Java Swing Implementation
 
 ### Main Menu
-When opening the application, the player comes across the Main Menu, which is consisted of a single JFrame and a JTabbedPane consisted of 3 different jPanel. Navigation between the jPanels is performed with the use of jButtons. The background image of the main menu is a jLabel type object. The structure of the menu is shown in the left picture below. The right image is a screenshot showing the main menu.
+When opening the application, the player comes across the Main Menu, which is consisted of a single JFrame and a JTabbedPane consisted of 3 different jPanel. Navigation between the jPanels is performed with the use of jButtons. The background image of the main menu is a jLabel type object. The structure of the menu is shown in the left picture below. The right image is a screenshot showing the default main menu.
 
 <p float="left" align = "center">
   <img src="https://github.com/user-attachments/assets/e269e98f-eae0-44ef-b27e-8a6d05d8c3b6" width="400" />
   <img src="https://github.com/user-attachments/assets/25795179-f2a0-4608-9aa8-478aebec4574" width="407" />
 </p>
+
+From the main menu, we can select the two other jPanels appart from the default, the one being the "Options" menu and the other is the "Instructions" menu. The first button is used to start a new game.
+
+The main menu is called from the main() class of the Java project.  
+> [!TIP]
+> The [src](/src) folder contains the Java classes files used for the project.
