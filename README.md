@@ -353,7 +353,23 @@ if(discoveredCells==Grid.cellGrid.size()- Minesweeper.MINECOUNT){ //win Conditio
       Grid.cellGrid.clear();
 }
 ```
-When the game is victorious, a JPanel appears to inform the player about his win. On this panel there are options for starting a new game, by selecting difficulty level (number of mines) with a Slider. There are also options for returning to the main menu or exiting the game (closing application). This panel is shown in the image below.
+There is a different block of code that handles the situation when a game is lost. In _Handler_ class, this is a simple clear function for the cellGrid.
+
+```Java
+if(loose){
+    endMatch endMatch = new endMatch(false);
+    Grid.cellGrid.clear();//Empty Grid after game ends
+```
+
+There is a different class, called _endMatch_, that actually handles the two different outcomes of the game. If the game is victorious, the endMatch class calls a JPanel informing the user about his win. On this panel there are options for starting a new game, by selecting difficulty level (number of mines) with a Slider. There are also options for returning to the main menu or exiting the game (closing application). This panel is shown in the image below.
+
 <p align = "center">
   <img width="706" height="496" alt="image" src="https://github.com/user-attachments/assets/188d6b29-defb-42fd-a361-1a92a4a050a7" />
+</p>
+
+In case of defeat, the JPanel shown has a different .GIF image and .WAV file than the victorious game. Also the message now informs the user about defeat. All the other elements are the same as the previous case, as we can see in the image below.
+
+<p align = "center">
+  <img width="706" alt="image" src="https://github.com/user-attachments/assets/54cde83a-066f-4008-bab5-5fafb70c46ca" />
+
 </p>
