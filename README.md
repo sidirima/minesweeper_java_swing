@@ -224,3 +224,80 @@ Finally, there is also a method called _addCells()_ responsible for placing the 
      }
 }
 ```
+
+### Cell Class
+The _Cell_ class is responsible for creating the cells. More specifically, the class describes each cell's parameters, their position in the table, if they have been flagged and in what type they belong to.
+There are 3 types of cells:
+- Empty cells
+- Number cells
+- Mine Cells
+
+> [!NOTE]
+> The default state of each cell when the game starts is "Undiscovered".
+
+On the image below we can see all the cell types.
+
+<p align = "center">
+  <img width="300" alt="image" src="https://github.com/user-attachments/assets/d1ee1ed0-829c-486d-8ac1-ff625faf720d" />
+  <br>
+  <em>From left to right: Empty, Number, Undiscovered, Mine</em>
+</p>
+
+```Java
+public class Cell extends JButton {
+    
+    private int type; 
+    private int position;
+    private boolean discovered;
+    private boolean flaged;
+    
+    private Handler handler;
+
+    public Cell(int type, int position, boolean discovered, boolean flaged,Handler handler) {
+        this.type = type;
+        this.position = position;
+        this.discovered = discovered;
+        this.flaged = flaged;
+        this.handler = handler;
+```
+
+The class is also responsible for actions upon clicking on a cell. With the use of a _MouseListener()_ object class _Handler_ is called. As we can see on the code below, there is no other action when mouse enters, exits, presses or releases. 
+
+```Java
+addMouseListener(new MouseListener(){
+    @Override
+    public void mouseClicked(MouseEvent e){
+        if(SwingUtilities.isRightMouseButton(e))
+            rightClickButton();
+        else
+            try {
+                clickButton();
+            } catch (UnsupportedAudioFileException ex) {
+                Logger.getLogger(Cell.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(Cell.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (LineUnavailableException ex) {
+                Logger.getLogger(Cell.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+            public void mouseEntered(MouseEvent e){}
+            
+            public void mouseExited(MouseEvent e){}
+            
+            public void mousePressed(MouseEvent e){}
+            
+            public void mouseReleased(MouseEvent e){}
+        });
+    }
+.
+.
+.
+    public void clickButton() throws UnsupportedAudioFileException, IOException, LineUnavailableException{
+        handler.click(this);
+    }
+
+    public void rightClickButton(){
+        handler.rightClick(this);
+    }
+```
+
