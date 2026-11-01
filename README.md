@@ -292,7 +292,8 @@ addMouseListener(new MouseListener(){
 .
 .
 .
-    public void clickButton() throws UnsupportedAudioFileException, IOException, LineUnavailableException{
+    public void clickButton() throws UnsupportedAudioFileException,
+        IOException, LineUnavailableException{
         handler.click(this);
     }
 
