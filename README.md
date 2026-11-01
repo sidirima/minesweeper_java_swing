@@ -38,3 +38,16 @@ There are various widgets supported in Swing like menus, text fields, tabbed pan
 
 Using Swing, developed programs are very lightweight, although due to its limited potentials, they have a 2000s era aesthetic.
 
+## Our Java Swing Implementation
+
+### Main Menu
+When opening the application, the player comes across the Main Menu, which is consisted of a single JFrame and a JTabbedPane consisted of 3 different jPanel. Navigation between the jPanels is performed with the use of jButtons. The background image of the main menu is a jLabel type object. The structure of the menu is shown in the picture
+
+Main Menu Structure             |  Appearance
+:-------------------------:|:-------------------------:
+![](https://github.com/user-attachments/assets/e269e98f-eae0-44ef-b27e-8a6d05d8c3b6)  |  ![](https://github.com/user-attachments/assets/25795179-f2a0-4608-9aa8-478aebec4574) 
+
+<p float="left" align = "center">
+  <img src="https://github.com/user-attachments/assets/e269e98f-eae0-44ef-b27e-8a6d05d8c3b6" width="400" />
+  <img src="https://github.com/user-attachments/assets/25795179-f2a0-4608-9aa8-478aebec4574" width="400" />
+</p>
