@@ -302,3 +302,9 @@ addMouseListener(new MouseListener(){
     }
 ```
 
+### Handler class
+Basic function of _Handler_ is to translate each of the player's actions (right clicking, left clicking) in program actions. So, there are two very important methods used in this class:
+- click()
+- rightClick()
+
+### Winning & Losing Conditions
