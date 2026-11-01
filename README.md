@@ -26,3 +26,15 @@ Therefore, there are only 2 ways the game is over:
 
 > [!NOTE]
 > If the user flags a cell and later discovers that does not contain a mine, it can be unflagged by right-clicking it again.
+
+## What is Java Swing?
+Swing is a GUI widget toolkit for Java. It is found in Oracle's JFC, which is an API that allows the programmer to create graphical environments for Java programs.
+
+There are various widgets supported in Swing like menus, text fields, tabbed panes, checklists. A sample of the abilities Swing can offer is shown on the image below.
+
+<p align = "center">
+  <img width="644" height="519" alt="image" src="https://github.com/user-attachments/assets/2a92fc97-8f56-435f-bf28-d74abec1b77c" />
+</p>
+
+Using Swing, developed programs are very lightweight, although due to its limited potentials, they have a 2000s era aesthetic.
+
