@@ -373,3 +373,36 @@ In case of defeat, the JPanel shown has a different .GIF image and .WAV file tha
   <img width="706" alt="image" src="https://github.com/user-attachments/assets/54cde83a-066f-4008-bab5-5fafb70c46ca" />
 
 </p>
+
+## Options Menu
+The Options Menu is the second JPanel accessible from the Main Menu. Its purpose is to set preffered difficulty of a new game, using a Slider object. Difficulty is then calculated via the number of mines selected by the user. On the menu, there is also a comboBox associated with _mineskin_. This comboBox allows the player to select the color of the mines for the new game. There are two colors available: red and grey. Default setting is grey. On the menu, there are also 3 JButtons for navigation:
+- Return to Main Menu
+- Start New Game
+- Exit
+
+The image below shows the appearance of the Options Menu, as seen by the user:
+
+<p align = "center">
+  <img width="651" height="413" alt="image" src="https://github.com/user-attachments/assets/76471b51-ffa6-4a5b-a979-b48cd30474c7" />
+</p>
+
+The code block below shows the action performed when starting a new game with selected parameters from the options menu.
+```Java
+private void optionsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_optionsActionPerformed
+        Tabs.setSelectedIndex(1); // Goes to SubMenu
+}//GEN-LAST:event_optionsActionPerformed
+
+private void newgameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_newgameActionPerformed
+    Minesweeper game = new Minesweeper(this.difficulty.getValue(),this.mineskin.getSelectedIndex());
+    this.dispose();
+}//GEN-LAST:event_newgameActionPerformed
+```
+
+### Instructions Menu
+The instructions menu is used as a guide for new players to understand the purpose of the game and the way to win. The JPanel includes an HTML code block encapsulated as a JLabel object for the instructions. There is also a single JButton for returning to the Main Menu.
+The image below shows that instructions JPanel.
+
+<p align = "center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/c0b429e2-b0ab-43e2-bba4-6cb8f82a808a" />
+</p>
+
