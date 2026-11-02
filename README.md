@@ -398,11 +398,20 @@ private void newgameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST
 }//GEN-LAST:event_newgameActionPerformed
 ```
 
-### Instructions Menu
+## Instructions Menu
 The instructions menu is used as a guide for new players to understand the purpose of the game and the way to win. The JPanel includes an HTML code block encapsulated as a JLabel object for the instructions. There is also a single JButton for returning to the Main Menu.
 The image below shows that instructions JPanel.
 
 <p align = "center">
   <img width="650" alt="image" src="https://github.com/user-attachments/assets/c0b429e2-b0ab-43e2-bba4-6cb8f82a808a" />
 </p>
+
+## Future Improvements
+The overall usability of the application is achieved, and it was a fun way familiarizing with Java Swing API. Although, on Beta testing of the game we found some imperfections that could be corrected in future improvements:
+
+1. Solving issue of **terminating an ongoing game and going back to Main Menu** without terminating the program. For the time being, the only way to stop an ongoing game is via pressing the Exit button on the application window.
+2. **Main menu image frame needs to be adjusted properly**, because its acting in a weird way when resizing the window or when using the application in monitors with different resolutions.
+3. **Difficulty selector Slider when a game ends needs to be isolated from _endMatch_** class and appear in a new window.
+4. **Flag counter needs to be cleared and set back to 0 before starting a new game via _endMatch_**, because now it just continues counting up from the last state of the previous game.
+5. Add a new window with a **message of exiting the program confirmation** by the user, in order to avoid pressing exit button by mistake.
 
